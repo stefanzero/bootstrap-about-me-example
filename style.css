@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  font:
+    16px "Bricolage Grotesque",
+    sans-serif;
+  margin-bottom: 50%;
+}
+/* .vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.circle-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+} */
+.image-cover {
+  object-fit: cover;
+  width: 100%;
+}
+.my-list {
+  font-size: 1.2vw; /* 1.2% of the viewport width */
+  max-width: 50ch; /* 50 character units */
+  word-wrap: break-word;
+  line-height: 1.4;
+}
+.my-list li {
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  /* styles for small screens and up */
+  .my-list {
+    font-size: 2.4vw;
+    max-width: 100ch;
+  }
+}
