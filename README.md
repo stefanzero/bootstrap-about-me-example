@@ -10,14 +10,12 @@ A simple web page showcasing an About Me web page using Bootstrap.
 
 - [About Me Web Page Example using Bootstrap](#about-me-web-page-example-using-bootstrap)
   - [Table of Contents](#table-of-contents)
-  - [About](#about)
   - [Features](#features)
   - [Technologies Used](#technologies-used)
   - [Installation](#installation)
   - [License](#license)
   - [Author](#author)
-
-## About
+  - [Deployment](#deployment)
 
 ---
 
@@ -60,3 +58,10 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md)
 - Stefan Musarra
 - Email: [stefan0@stefan0.com](mailto:stefan0@stefan0.com)
 - LinkedIn: [linkedin.com/in/stefan-musarra](https://www.linkedin.com/in/stefan-musarra-3bbaa952/)
+
+## Deployment
+
+---
+
+Deployed on GitHub Pages:
+[Bootstrap About Me Example](https://stefanzero.github.io/bootstrap-about-me-example/)
