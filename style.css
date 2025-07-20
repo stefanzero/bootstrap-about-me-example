@@ -5,11 +5,26 @@ body {
     sans-serif;
   margin-bottom: 50%;
 }
+/*
+make navbar links right-aligned
+*/
+.navbar .container {
+  justify-content: space-between;
+}
+/*
+override bootstrap so navbar-collapse doesn't grow with content
+*/
+.navbar-collapse {
+  flex-grow: 0;
+}
+/* this is equivalent to bootstrap's .align-items-center class */
 /* .vertical-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+/* this is equivalent to bootstrap's .rounded-circle class */
+/*
 .circle-container {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -18,10 +33,17 @@ body {
   border: 2px solid black;
   position: relative;
 } */
+/*
+ bootstrap's .img-fluid class accompanies this with .img-fluid class
+ which uses width: 100% and height: auto.
+ if the image has height > width, object-fit: cover will crop the image
+ */
+/*
 .image-cover {
   object-fit: cover;
   width: 100%;
 }
+*/
 .my-list {
   font-size: 1.2vw; /* 1.2% of the viewport width */
   max-width: 50ch; /* 50 character units */
